@@ -1,9 +1,9 @@
-# Hair Stylist Booking Web Application 💇‍♀️  
+# Hair Stylist Booking Web Application  
 
 **Course:** COMP3074 — Project UI Prototype  
 **Group Number:** 33  
 
-## 📋 Project Overview
+## Project Overview
 **Project Name:** Hair Stylist Booking Web Application  
 **Prototype Title:** Project UI Prototype  
 
@@ -13,12 +13,12 @@ The goal is to provide a **user-friendly**, **visually appealing**, and **functi
 
 ---
 
-## 🧠 Purpose
+## Purpose
 This prototype aims to address the inefficiencies of manual appointment scheduling (via phone calls or messages) by offering a digital solution that enhances both **customer convenience** and **stylist workflow management**.
 
 ---
 
-## 🎯 Key Features (Prototype Scope)
+##  Key Features (Prototype Scope)
 - **Online Booking Interface:** Displays available services and time slots.  
 - **Admin Dashboard Mockup:** For hairstylists to manage schedules, clients, and services.  
 - **Customer Profile Pages:** Includes booking history and saved preferences.  
@@ -28,14 +28,14 @@ This prototype aims to address the inefficiencies of manual appointment scheduli
 
 ---
 
-## 🛠️ Technologies
+##  Technologies
 - **Front-End:** Java + Gradle (prototype level)
 - **Design Tooling:** Figma / Adobe XD / Mockup Tools
 - **Back-End (Future Integration):** PostgreSQL (Planned for Capstone Project)
 
 ---
 
-## 👥 Team Members
+##  Team Members
 
 | Name | Student ID | GitHub |
 |------|-------------|--------|
@@ -46,7 +46,7 @@ This prototype aims to address the inefficiencies of manual appointment scheduli
 
 ---
 
-## 📦 Repository Contents
+##  Repository Contents
 - `screens/` — Contains mockups and UI screenshots.  
 - `app/` — Source files for the prototype application.  
 - `docs/` — Proposal and documentation files (e.g., PDF).  
@@ -54,7 +54,7 @@ This prototype aims to address the inefficiencies of manual appointment scheduli
 
 ---
 
-## 📄 Note
+##  Note
 This repository contains only the **UI prototype** for the Hair Stylist Booking Web Application. The **backend logic and database integration** will be developed and integrated in the next project phase.
 
 ---
