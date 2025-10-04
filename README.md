@@ -28,10 +28,7 @@ This prototype aims to address the inefficiencies of manual appointment scheduli
 
 ---
 
-##  Technologies
-- **Front-End:** Java + Gradle (prototype level)
-- **Design Tooling:** Figma / Adobe XD / Mockup Tools
-- **Back-End (Future Integration):** PostgreSQL (Planned for Capstone Project)
+
 
 ---
 
@@ -46,11 +43,7 @@ This prototype aims to address the inefficiencies of manual appointment scheduli
 
 ---
 
-##  Repository Contents
-- `screens/` — Contains mockups and UI screenshots.  
-- `app/` — Source files for the prototype application.  
-- `docs/` — Proposal and documentation files (e.g., PDF).  
-- `README.md` — Project overview (this file).  
+
 
 ---
 
