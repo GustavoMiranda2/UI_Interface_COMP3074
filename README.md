@@ -26,7 +26,7 @@ This prototype aims to address the inefficiencies of manual appointment scheduli
 - **Branding and UI Design:** Consistent with the hairstylist’s identity and aesthetic.  
 - **Optional Blog Section:** Placeholder for future stylist updates or tips.  
 
----
+
 
 
 
@@ -41,7 +41,7 @@ This prototype aims to address the inefficiencies of manual appointment scheduli
 | **Lucas Tavares Criscuolo** | 101500671 | [GitHub](https://github.com/Stuaarts) |
 | **Mateus de Souza Carvalho Melco Sfeir** | 101484904 | [GitHub](https://github.com/mateussfeir) |
 
----
+
 
 
 
