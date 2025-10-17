@@ -16,7 +16,7 @@ class BookingActivity : BaseDrawerActivity() {
         super.onCreate(savedInstanceState)
         setContentLayout(R.layout.content_booking)
         setToolbarTitle("Select Service")
-        setCheckedDrawerItem(R.id.m_book)
+        // NOTE: no setCheckedDrawerItem(...) here because "Book" was removed from the drawer
 
         cardHaircut = findViewById(R.id.cardHaircut)
         cardHaircutBeard = findViewById(R.id.cardHaircutBeard)
@@ -25,12 +25,13 @@ class BookingActivity : BaseDrawerActivity() {
 
         val all = listOf(cardHaircut, cardHaircutBeard, cardEyebrows)
 
+        // make cards checkable + place check icon at TOP_END
         val check = AppCompatResources.getDrawable(this, R.drawable.ic_check_24)
         all.forEach { card ->
             card.isCheckable = true
+            card.checkedIcon = check
             card.checkedIconGravity = MaterialCardView.CHECKED_ICON_GRAVITY_TOP_END
         }
-
 
         fun select(card: MaterialCardView) {
             all.forEach { it.isChecked = (it == card) }
@@ -39,6 +40,8 @@ class BookingActivity : BaseDrawerActivity() {
 
         all.forEach { card -> card.setOnClickListener { select(card) } }
 
+        // Optional: preselect one
+        // select(cardHaircut)
     }
 }
 

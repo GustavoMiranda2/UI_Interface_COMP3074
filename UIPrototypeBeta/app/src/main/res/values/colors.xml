@@ -7,4 +7,6 @@
     <color name="chip_bg">#F3F4F6</color>
     <color name="surface_soft">#F1F2F6</color>
     <color name="white">#FFFFFF</color>
+    <color name="nav_selected_bg">#0B0E1A</color>
+    <color name="nav_pressed_bg">#1A0B0E1A</color>
 </resources>

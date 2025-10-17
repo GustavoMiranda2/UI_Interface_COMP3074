@@ -5,9 +5,9 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.MenuItem
 import android.widget.FrameLayout
+import androidx.activity.OnBackPressedCallback
 import androidx.annotation.IdRes
 import androidx.annotation.LayoutRes
-import androidx.activity.OnBackPressedCallback
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.GravityCompat
@@ -37,8 +37,7 @@ open class BaseDrawerActivity : AppCompatActivity() {
 
         toggle = ActionBarDrawerToggle(
             this, drawerLayout, toolbar,
-            R.string.navigation_drawer_open,
-            R.string.navigation_drawer_close
+            R.string.navigation_drawer_open, R.string.navigation_drawer_close
         )
         drawerLayout.addDrawerListener(toggle)
         toggle.syncState()
@@ -58,7 +57,6 @@ open class BaseDrawerActivity : AppCompatActivity() {
                 if (drawerLayout.isDrawerOpen(GravityCompat.END)) {
                     drawerLayout.closeDrawer(GravityCompat.END)
                 } else {
-                    // Let the Activity finish/go back normally
                     isEnabled = false
                     onBackPressedDispatcher.onBackPressed()
                 }
@@ -66,19 +64,19 @@ open class BaseDrawerActivity : AppCompatActivity() {
         })
     }
 
-    /** Children inject their own content layout into the shared frame */
     protected fun setContentLayout(@LayoutRes layoutRes: Int) {
         LayoutInflater.from(this).inflate(layoutRes, contentFrame, true)
     }
 
-    /** Optional helpers */
     protected fun setToolbarTitle(text: CharSequence) { toolbar.title = text }
-    protected fun setCheckedDrawerItem(@IdRes menuId: Int) { navView.setCheckedItem(menuId) }
+
+    protected fun setCheckedDrawerItem(@IdRes menuId: Int) {
+        navView.menu.findItem(menuId)?.let { navView.setCheckedItem(menuId) }
+    }
 
     private fun onDrawerItem(item: MenuItem): Boolean {
         when (item.itemId) {
             R.id.m_home      -> if (this !is HomeActivity) startActivity(Intent(this, HomeActivity::class.java))
-            R.id.m_book      -> if (this !is BookingActivity) startActivity(Intent(this, BookingActivity::class.java))
             R.id.m_portfolio -> if (this !is PortfolioActivity) startActivity(Intent(this, PortfolioActivity::class.java))
             R.id.m_blog      -> if (this !is BlogActivity) startActivity(Intent(this, BlogActivity::class.java))
             R.id.m_admin     -> if (this !is AdminDashboardActivity) startActivity(Intent(this, AdminDashboardActivity::class.java))
@@ -92,5 +90,6 @@ open class BaseDrawerActivity : AppCompatActivity() {
         return super.onOptionsItemSelected(item)
     }
 }
+
 
 

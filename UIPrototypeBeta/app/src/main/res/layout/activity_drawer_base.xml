@@ -29,9 +29,18 @@
 
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/navView"
-        android:layout_width="280dp"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="end"
-        app:menu="@menu/drawer_menu"/>
+        android:fitsSystemWindows="true"
+        app:menu="@menu/drawer_menu"
+        app:itemIconSize="20dp"
+        app:itemHorizontalPadding="16dp"
+        app:itemIconPadding="12dp"
+        app:itemTextColor="@color/nav_item_text"
+        app:itemIconTint="@color/nav_item_icon"
+        app:itemBackground="@drawable/drawer_item_bg"
+        app:itemRippleColor="@color/brand_primary"/>
+
 
 </androidx.drawerlayout.widget.DrawerLayout>
