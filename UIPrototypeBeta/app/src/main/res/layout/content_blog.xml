@@ -42,6 +42,7 @@
 
         <!-- Blog card 1 -->
         <LinearLayout
+            android:id="@+id/cardPost1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -123,6 +124,7 @@
 
         <!-- Blog card 2 -->
         <LinearLayout
+            android:id="@+id/cardPost2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -168,6 +170,7 @@
 
         <!-- Blog card 3 -->
         <LinearLayout
+            android:id="@+id/cardPost3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
