@@ -53,7 +53,7 @@ class AdminDashboardActivity : BaseDrawerActivity() {
             setActiveButton(btnCalendar, btnList)
         }
 
-        // --- Initialize styles (List active by default) ---
+        // -- Initialize styles (List active by default) ---
         setActiveButton(btnList, btnCalendar)
     }
 }
