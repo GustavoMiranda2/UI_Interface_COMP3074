@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Main (single-select) -->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/m_home"
+            android:icon="@drawable/ic_home_24"
+            android:title="Home" />
+        <item
+            android:id="@+id/m_portfolio"
+            android:icon="@drawable/ic_photo_24"
+            android:title="Portfolio" />
+        <item
+            android:id="@+id/m_blog"
+            android:icon="@drawable/ic_article_24"
+            android:title="Blog" />
+    </group>
+
+    <!-- Visual divider
+    <item
+        android:id="@+id/m_divider"
+        android:enabled="false"
+        app:actionLayout="@layout/nav_divider" />-->
+
+    <!-- Admin (still checkable so it can highlight when opened) -->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/m_admin"
+            android:icon="@drawable/ic_dashboard_24"
+            android:title="Admin Dashboard" />
+    </group>
+
+</menu>
+
