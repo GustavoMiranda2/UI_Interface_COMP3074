@@ -7,6 +7,12 @@
             <solid android:color="@color/nav_selected_bg" />
         </shape>
     </item>
+    <item android:state_selected="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="16dp" />
+            <solid android:color="@color/nav_selected_bg" />
+        </shape>
+    </item>
 
     <!-- Pressed -->
     <item android:state_pressed="true">
@@ -24,4 +30,3 @@
         </shape>
     </item>
 </selector>
-
