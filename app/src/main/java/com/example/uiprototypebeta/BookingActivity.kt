@@ -16,7 +16,7 @@ class BookingActivity : BaseDrawerActivity() {
         super.onCreate(savedInstanceState)
         setContentLayout(R.layout.content_booking)
         setToolbarTitle("Select Service")
-        // NOTE: no setCheckedDrawerItem(...) here because "Book" was removed from the drawer
+        setCheckedDrawerItem(R.id.m_book)
 
         cardHaircut = findViewById(R.id.cardHaircut)
         cardHaircutBeard = findViewById(R.id.cardHaircutBeard)
@@ -44,7 +44,6 @@ class BookingActivity : BaseDrawerActivity() {
         // select(cardHaircut)
     }
 }
-
 
 
 

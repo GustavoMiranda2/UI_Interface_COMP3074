@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">UIPrototypeBeta</string>
-    <string name="hairstylist_booking">Hairstylist Booking</string>
-    <string name="navigation_drawer_open">Open navigation menu</string>
-    <string name="navigation_drawer_close">Close navigation menu</string>
-
-</resources>

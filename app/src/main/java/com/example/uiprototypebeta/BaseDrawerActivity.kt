@@ -77,9 +77,10 @@ open class BaseDrawerActivity : AppCompatActivity() {
     private fun onDrawerItem(item: MenuItem): Boolean {
         when (item.itemId) {
             R.id.m_home      -> if (this !is HomeActivity) startActivity(Intent(this, HomeActivity::class.java))
+            R.id.m_book      -> if (this !is BookingActivity) startActivity(Intent(this, BookingActivity::class.java))
             R.id.m_portfolio -> if (this !is PortfolioActivity) startActivity(Intent(this, PortfolioActivity::class.java))
             R.id.m_blog      -> if (this !is BlogActivity) startActivity(Intent(this, BlogActivity::class.java))
-            R.id.m_admin     -> if (this !is AdminDashboardActivity) startActivity(Intent(this, AdminDashboardActivity::class.java))
+            R.id.m_admin     -> if (this !is AdminLoginActivity) startActivity(Intent(this, AdminLoginActivity::class.java))
         }
         drawerLayout.closeDrawer(GravityCompat.END)
         return true
@@ -90,6 +91,5 @@ open class BaseDrawerActivity : AppCompatActivity() {
         return super.onOptionsItemSelected(item)
     }
 }
-
 
 
