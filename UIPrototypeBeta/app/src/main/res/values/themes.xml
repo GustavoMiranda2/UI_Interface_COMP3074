@@ -1,7 +1,0 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <style name="Theme.UIPrototype" parent="Theme.Material3.Light.NoActionBar">
-        <item name="android:statusBarColor">@color/brand_navy</item>
-        <item name="colorPrimary">@color/brand_navy</item>
-        <item name="colorOnPrimary">@color/white</item>
-    </style>
-</resources>

@@ -8,6 +8,8 @@
         android:icon="@mipmap/ic_launcher">
 
         <activity android:name=".AdminDashboardActivity" android:exported="false"/>
+        <activity android:name=".AdminLoginActivity" android:exported="false"/>
+        <activity android:name=".SignUpActivity" android:exported="false"/>
         <activity android:name=".BlogActivity" android:exported="false"/>
         <activity android:name=".BlogDetailActivity" android:exported="false"/>
         <activity android:name=".PortfolioActivity" android:exported="false"/>

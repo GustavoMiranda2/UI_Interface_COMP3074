@@ -10,8 +10,18 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         b = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(b.root)
-        b.btnLogin.setOnClickListener {
-            startActivity(Intent(this, HomeActivity::class.java))
+
+        b.btnSignIn.setOnClickListener {
+            startActivity(Intent(this, BookingActivity::class.java))
+            finish()
+        }
+
+        b.btnGuest.setOnClickListener {
+            startActivity(Intent(this, BookingActivity::class.java))
+        }
+
+        b.btnSignUp.setOnClickListener {
+            startActivity(Intent(this, SignUpActivity::class.java))
         }
     }
 }
