@@ -38,6 +38,8 @@ class BlogDetailActivity : BaseDrawerActivity() {
             }
         }
 
-        findViewById<LinearLayout>(R.id.btnBack).setOnClickListener { finish() }
+        findViewById<LinearLayout>(R.id.btnBack).setOnClickListener {
+            onBackPressedDispatcher.onBackPressed()
+        }
     }
 }

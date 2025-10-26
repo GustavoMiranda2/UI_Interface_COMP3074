@@ -1,4 +1,5 @@
 package com.example.uiprototypebeta
+
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -17,7 +18,7 @@ class LoginActivity : AppCompatActivity() {
         }
 
         b.btnGuest.setOnClickListener {
-            startActivity(Intent(this, BookingActivity::class.java))
+            startActivity(Intent(this, HomeActivity::class.java))
         }
 
         b.btnSignUp.setOnClickListener {
@@ -25,4 +26,3 @@ class LoginActivity : AppCompatActivity() {
         }
     }
 }
-

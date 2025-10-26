@@ -4,7 +4,8 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="12dp">
+    android:padding="12dp"
+    android:background="@color/surface_soft">
 
     <!-- Section Title -->
     <TextView
@@ -22,9 +23,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
+        app:cardBackgroundColor="@android:color/white"
         app:cardCornerRadius="16dp"
         app:cardElevation="1dp"
-        app:strokeWidth="2dp"
+        app:strokeWidth="0.6dp"
         app:strokeColor="@color/selector_card_stroke"
         app:checkedIcon="@drawable/ic_check_24"
         app:checkedIconTint="@color/brand_primary"
@@ -79,8 +81,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="$20"
-                android:textStyle="bold"
-                android:textSize="16sp"/>
+                android:fontFamily="sans-serif-medium"
+                android:textSize="15sp"/>
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
 
@@ -90,9 +92,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        app:cardBackgroundColor="@android:color/white"
         app:cardCornerRadius="16dp"
         app:cardElevation="1dp"
-        app:strokeWidth="2dp"
+        app:strokeWidth="0.6dp"
         app:strokeColor="@color/selector_card_stroke"
         app:checkedIcon="@drawable/ic_check_24"
         app:checkedIconTint="@color/brand_primary"
@@ -147,8 +150,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="$25"
-                android:textStyle="bold"
-                android:textSize="16sp"/>
+                android:fontFamily="sans-serif-medium"
+                android:textSize="15sp"/>
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
 
@@ -158,9 +161,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        app:cardBackgroundColor="@android:color/white"
         app:cardCornerRadius="16dp"
         app:cardElevation="1dp"
-        app:strokeWidth="2dp"
+        app:strokeWidth="0.6dp"
         app:strokeColor="@color/selector_card_stroke"
         app:checkedIcon="@drawable/ic_check_24"
         app:checkedIconTint="@color/brand_primary"
@@ -215,8 +219,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="$5"
-                android:textStyle="bold"
-                android:textSize="16sp"/>
+                android:fontFamily="sans-serif-medium"
+                android:textSize="15sp"/>
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
 
@@ -229,5 +233,3 @@
         android:layout_marginTop="16dp"
         android:enabled="false"/>
 </LinearLayout>
-
-

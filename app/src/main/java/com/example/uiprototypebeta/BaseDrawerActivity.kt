@@ -61,8 +61,7 @@ open class BaseDrawerActivity : AppCompatActivity() {
                 if (drawerLayout.isDrawerOpen(GravityCompat.END)) {
                     drawerLayout.closeDrawer(GravityCompat.END)
                 } else {
-                    isEnabled = false
-                    onBackPressedDispatcher.onBackPressed()
+                    goToLoginScreen()
                 }
             }
         })
@@ -86,7 +85,10 @@ open class BaseDrawerActivity : AppCompatActivity() {
 
     private fun onDrawerItem(item: MenuItem): Boolean {
         when (item.itemId) {
-            R.id.m_login     -> if (this !is LoginActivity) startActivity(Intent(this, LoginActivity::class.java))
+            R.id.m_login -> {
+                if (this !is LoginActivity) goToLoginScreen()
+                return true
+            }
             R.id.m_home      -> if (this !is HomeActivity) startActivity(Intent(this, HomeActivity::class.java))
             R.id.m_book      -> if (this !is BookingActivity) startActivity(Intent(this, BookingActivity::class.java))
             R.id.m_portfolio -> if (this !is PortfolioActivity) startActivity(Intent(this, PortfolioActivity::class.java))
@@ -114,6 +116,14 @@ open class BaseDrawerActivity : AppCompatActivity() {
             }
         }
         adminFooter.isSelected = false
+    }
+
+    private fun goToLoginScreen() {
+        val intent = Intent(this, LoginActivity::class.java).apply {
+            addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
+        }
+        startActivity(intent)
+        finish()
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
