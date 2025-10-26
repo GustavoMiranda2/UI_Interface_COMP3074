@@ -32,7 +32,7 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="end"
-        android:background="@color/surface_soft"
+        android:background="@drawable/drawer_panel_background"
         android:fitsSystemWindows="true"
         android:orientation="vertical"
         android:paddingBottom="24dp"
@@ -44,12 +44,13 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:fitsSystemWindows="true"
+            android:background="@color/nav_drawer_background"
             app:itemBackground="@drawable/drawer_item_bg"
             app:itemHorizontalPadding="16dp"
             app:itemIconPadding="12dp"
             app:itemIconSize="20dp"
             app:itemIconTint="@color/nav_item_icon"
-            app:itemRippleColor="@color/brand_primary"
+            app:itemRippleColor="@color/nav_pressed_bg"
             app:itemTextColor="@color/nav_item_text"
             app:menu="@menu/drawer_menu" />
 
@@ -58,13 +59,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/drawer_item_bg"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
             android:clickable="true"
             android:focusable="true"
             android:gravity="center_vertical"
             android:orientation="horizontal"
-            android:paddingStart="16dp"
             android:paddingTop="12dp"
-            android:paddingEnd="16dp"
             android:paddingBottom="12dp">
 
             <ImageView
