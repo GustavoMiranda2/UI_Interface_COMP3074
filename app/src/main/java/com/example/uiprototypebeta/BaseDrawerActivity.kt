@@ -125,6 +125,7 @@ open class BaseDrawerActivity : AppCompatActivity() {
     private fun performAdminLogout() {
         clearNavSelection()
         showLogoutOption(false)
+        AdminSession.isLoggedIn = false
         drawerLayout.closeDrawer(GravityCompat.END)
         val intent = Intent(this, LoginActivity::class.java).apply {
             addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
