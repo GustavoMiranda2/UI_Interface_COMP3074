@@ -4,5 +4,6 @@
     <string name="navigation_drawer_open">Open navigation menu</string>
     <string name="navigation_drawer_close">Close navigation menu</string>
     <string name="admin_login">Admin login</string>
+    <string name="admin_logout">Log out</string>
 
 </resources>

@@ -16,6 +16,7 @@ class AdminDashboardActivity : BaseDrawerActivity() {
         setContentLayout(R.layout.content_admin)
         setToolbarTitle("Admin Dashboard")
         setCheckedDrawerItem(R.id.m_admin)
+        showLogoutOption(true)
 
         // --- Find views ---
         val tvDate: TextView = findViewById(R.id.tvDate)
