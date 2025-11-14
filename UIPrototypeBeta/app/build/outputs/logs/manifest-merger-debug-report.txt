@@ -1,0 +1,330 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml:2:1-27:12
+MERGED from [androidx.databinding:viewbinding:8.10.1] /Users/mateussfeir/.gradle/caches/8.13/transforms/f57513a457ff91b781651e74b0256e97/transformed/viewbinding-8.10.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.material:material:1.13.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/adff2855923a12ceb9ba3c2b80c10fea/transformed/material-1.13.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/mateussfeir/.gradle/caches/8.13/transforms/89a3d5f67ee5807da62cd0165957eb0f/transformed/constraintlayout-2.2.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] /Users/mateussfeir/.gradle/caches/8.13/transforms/67cfaaf25f49d0fe4924f562e92640da/transformed/appcompat-resources-1.7.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.1] /Users/mateussfeir/.gradle/caches/8.13/transforms/d620dca5c049d2404bdf5840bef6b33f/transformed/appcompat-1.7.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.4.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/1d8799f7ced92691bc19cc4d32cbc49d/transformed/recyclerview-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /Users/mateussfeir/.gradle/caches/8.13/transforms/bde009390585a793a782af83e0bc7df1/transformed/viewpager2-1.1.0-beta02/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment:1.5.4] /Users/mateussfeir/.gradle/caches/8.13/transforms/06e03f7e804e0e792178bb2362a755ff/transformed/fragment-1.5.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.11.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/fd36828143c02bfa3c2397e66cebb2a9/transformed/activity-1.11.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/bf5e115fd5fa5bc7c99822ab8ebdc587/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/b3ad4b91aa0e1265e15636306fc987f5/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/mateussfeir/.gradle/caches/8.13/transforms/7e73734108a563a9b76d2dfe17f1c266/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/01d8939625b3563a6061203c3723cc7c/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/3b8ef09c5ae8285162e0324d4148c4b9/transformed/transition-1.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/24fd66e822e2e0c0dcadc14a0693fc8c/transformed/dynamicanimation-1.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/3ae7b05683db61e3f6ec73d78b687684/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/3ba732efc7d8050ea92f49aa046c6198/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/8f1e0d346dcbe027556785f52186238d/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/3903afd7545a7399d695666b6eced58c/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/419a5e3ea652d17b82a23f399b6f417d/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.17.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/9db61daecb858419b500ed7fc876daf2/transformed/core-1.17.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/348ac809ab7d9cb979f65ea20723f59c/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] /Users/mateussfeir/.gradle/caches/8.13/transforms/d3d08bc1aa5a0ac116f5d82ba5aea52c/transformed/graphics-shapes-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/mateussfeir/.gradle/caches/8.13/transforms/cd0b97bd7691e61a2bf081c75feb747d/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/mateussfeir/.gradle/caches/8.13/transforms/6f77e618ee3d431764a024ec34f39e5b/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/mateussfeir/.gradle/caches/8.13/transforms/66de7003d28adf34b1429c298e55fc98/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/mateussfeir/.gradle/caches/8.13/transforms/f96bc99188d5bd040d3813169935de2a/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/mateussfeir/.gradle/caches/8.13/transforms/2b05262e0dc313bf9f85b8f937b11e87/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/mateussfeir/.gradle/caches/8.13/transforms/fd35598e2fb0f320ad46f23d420866c8/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/mateussfeir/.gradle/caches/8.13/transforms/6f1be6ecb5658baa94079ce02518eb4a/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.17.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/8de988a39218193ea469e4c75dd6b95c/transformed/core-ktx-1.17.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-viewtree:1.0.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/441fac6d54c7f4b0a6d938b09feb16ae/transformed/core-viewtree-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/b890c1a59cb45fd105337705e7251e17/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/6655da303d0d2b439a0a731d7be2a397/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/15d40f90168bf1a47fc0f4dd7929a32b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/mateussfeir/.gradle/caches/8.13/transforms/9b78810d16e17fa0a19aa00bc0b33dd4/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/c679f60f9d8f16a050da851bb5838bae/transformed/tracing-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/b55fba1a369b049f325faee5c165cfde/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mateussfeir/.gradle/caches/8.13/transforms/a412b0f0a660406ed0611ba7f1ef5611/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/8327313d13c1a0f547909922e450b4e3/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/mateussfeir/.gradle/caches/8.13/transforms/9bf92c6f76ec0ba58ce969fea356483c/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
+	package
+		INJECTED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml:5:5-25:19
+INJECTED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml:5:5-25:19
+MERGED from [com.google.android.material:material:1.13.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/adff2855923a12ceb9ba3c2b80c10fea/transformed/material-1.13.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.13.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/adff2855923a12ceb9ba3c2b80c10fea/transformed/material-1.13.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/mateussfeir/.gradle/caches/8.13/transforms/89a3d5f67ee5807da62cd0165957eb0f/transformed/constraintlayout-2.2.1/AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/mateussfeir/.gradle/caches/8.13/transforms/89a3d5f67ee5807da62cd0165957eb0f/transformed/constraintlayout-2.2.1/AndroidManifest.xml:7:5-20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/b3ad4b91aa0e1265e15636306fc987f5/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/b3ad4b91aa0e1265e15636306fc987f5/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.17.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/9db61daecb858419b500ed7fc876daf2/transformed/core-1.17.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.17.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/9db61daecb858419b500ed7fc876daf2/transformed/core-1.17.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/mateussfeir/.gradle/caches/8.13/transforms/f96bc99188d5bd040d3813169935de2a/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/mateussfeir/.gradle/caches/8.13/transforms/f96bc99188d5bd040d3813169935de2a/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/15d40f90168bf1a47fc0f4dd7929a32b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/15d40f90168bf1a47fc0f4dd7929a32b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/mateussfeir/.gradle/caches/8.13/transforms/9b78810d16e17fa0a19aa00bc0b33dd4/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/mateussfeir/.gradle/caches/8.13/transforms/9b78810d16e17fa0a19aa00bc0b33dd4/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mateussfeir/.gradle/caches/8.13/transforms/a412b0f0a660406ed0611ba7f1ef5611/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mateussfeir/.gradle/caches/8.13/transforms/a412b0f0a660406ed0611ba7f1ef5611/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.17.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/9db61daecb858419b500ed7fc876daf2/transformed/core-1.17.0/AndroidManifest.xml:28:18-86
+	android:label
+		ADDED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml:7:9-41
+	android:icon
+		ADDED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml:8:9-43
+	android:theme
+		ADDED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml:6:9-49
+activity#com.example.uiprototypebeta.AdminDashboardActivity
+ADDED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml:10:9-84
+	android:exported
+		ADDED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml:10:58-82
+	android:name
+		ADDED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml:10:19-57
+activity#com.example.uiprototypebeta.AdminLoginActivity
+ADDED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml:11:9-80
+	android:exported
+		ADDED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml:11:54-78
+	android:name
+		ADDED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml:11:19-53
+activity#com.example.uiprototypebeta.SignUpActivity
+ADDED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml:12:9-76
+	android:exported
+		ADDED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml:12:50-74
+	android:name
+		ADDED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml:12:19-49
+activity#com.example.uiprototypebeta.BlogActivity
+ADDED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml:13:9-74
+	android:exported
+		ADDED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml:13:48-72
+	android:name
+		ADDED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml:13:19-47
+activity#com.example.uiprototypebeta.BlogDetailActivity
+ADDED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml:14:9-80
+	android:exported
+		ADDED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml:14:54-78
+	android:name
+		ADDED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml:14:19-53
+activity#com.example.uiprototypebeta.PortfolioActivity
+ADDED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml:15:9-79
+	android:exported
+		ADDED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml:15:53-77
+	android:name
+		ADDED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml:15:19-52
+activity#com.example.uiprototypebeta.BookingActivity
+ADDED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml:16:9-77
+	android:exported
+		ADDED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml:16:51-75
+	android:name
+		ADDED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml:16:19-50
+activity#com.example.uiprototypebeta.HomeActivity
+ADDED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml:17:9-74
+	android:exported
+		ADDED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml:17:48-72
+	android:name
+		ADDED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml:17:19-47
+activity#com.example.uiprototypebeta.LoginActivity
+ADDED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml:19:9-24:20
+	android:exported
+		ADDED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml:19:49-72
+	android:name
+		ADDED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml:19:19-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml:20:13-23:29
+action#android.intent.action.MAIN
+ADDED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml:22:27-74
+uses-sdk
+INJECTED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.10.1] /Users/mateussfeir/.gradle/caches/8.13/transforms/f57513a457ff91b781651e74b0256e97/transformed/viewbinding-8.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.10.1] /Users/mateussfeir/.gradle/caches/8.13/transforms/f57513a457ff91b781651e74b0256e97/transformed/viewbinding-8.10.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.13.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/adff2855923a12ceb9ba3c2b80c10fea/transformed/material-1.13.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.13.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/adff2855923a12ceb9ba3c2b80c10fea/transformed/material-1.13.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/mateussfeir/.gradle/caches/8.13/transforms/89a3d5f67ee5807da62cd0165957eb0f/transformed/constraintlayout-2.2.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/mateussfeir/.gradle/caches/8.13/transforms/89a3d5f67ee5807da62cd0165957eb0f/transformed/constraintlayout-2.2.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] /Users/mateussfeir/.gradle/caches/8.13/transforms/67cfaaf25f49d0fe4924f562e92640da/transformed/appcompat-resources-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] /Users/mateussfeir/.gradle/caches/8.13/transforms/67cfaaf25f49d0fe4924f562e92640da/transformed/appcompat-resources-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.1] /Users/mateussfeir/.gradle/caches/8.13/transforms/d620dca5c049d2404bdf5840bef6b33f/transformed/appcompat-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.1] /Users/mateussfeir/.gradle/caches/8.13/transforms/d620dca5c049d2404bdf5840bef6b33f/transformed/appcompat-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.4.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/1d8799f7ced92691bc19cc4d32cbc49d/transformed/recyclerview-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.4.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/1d8799f7ced92691bc19cc4d32cbc49d/transformed/recyclerview-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /Users/mateussfeir/.gradle/caches/8.13/transforms/bde009390585a793a782af83e0bc7df1/transformed/viewpager2-1.1.0-beta02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /Users/mateussfeir/.gradle/caches/8.13/transforms/bde009390585a793a782af83e0bc7df1/transformed/viewpager2-1.1.0-beta02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.5.4] /Users/mateussfeir/.gradle/caches/8.13/transforms/06e03f7e804e0e792178bb2362a755ff/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] /Users/mateussfeir/.gradle/caches/8.13/transforms/06e03f7e804e0e792178bb2362a755ff/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.11.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/fd36828143c02bfa3c2397e66cebb2a9/transformed/activity-1.11.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.11.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/fd36828143c02bfa3c2397e66cebb2a9/transformed/activity-1.11.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/bf5e115fd5fa5bc7c99822ab8ebdc587/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/bf5e115fd5fa5bc7c99822ab8ebdc587/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/b3ad4b91aa0e1265e15636306fc987f5/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/b3ad4b91aa0e1265e15636306fc987f5/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/mateussfeir/.gradle/caches/8.13/transforms/7e73734108a563a9b76d2dfe17f1c266/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/mateussfeir/.gradle/caches/8.13/transforms/7e73734108a563a9b76d2dfe17f1c266/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/01d8939625b3563a6061203c3723cc7c/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/01d8939625b3563a6061203c3723cc7c/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/3b8ef09c5ae8285162e0324d4148c4b9/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/3b8ef09c5ae8285162e0324d4148c4b9/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/24fd66e822e2e0c0dcadc14a0693fc8c/transformed/dynamicanimation-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/24fd66e822e2e0c0dcadc14a0693fc8c/transformed/dynamicanimation-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/3ae7b05683db61e3f6ec73d78b687684/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/3ae7b05683db61e3f6ec73d78b687684/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/3ba732efc7d8050ea92f49aa046c6198/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/3ba732efc7d8050ea92f49aa046c6198/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/8f1e0d346dcbe027556785f52186238d/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/8f1e0d346dcbe027556785f52186238d/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/3903afd7545a7399d695666b6eced58c/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/3903afd7545a7399d695666b6eced58c/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/419a5e3ea652d17b82a23f399b6f417d/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/419a5e3ea652d17b82a23f399b6f417d/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.17.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/9db61daecb858419b500ed7fc876daf2/transformed/core-1.17.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.17.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/9db61daecb858419b500ed7fc876daf2/transformed/core-1.17.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/348ac809ab7d9cb979f65ea20723f59c/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/348ac809ab7d9cb979f65ea20723f59c/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] /Users/mateussfeir/.gradle/caches/8.13/transforms/d3d08bc1aa5a0ac116f5d82ba5aea52c/transformed/graphics-shapes-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] /Users/mateussfeir/.gradle/caches/8.13/transforms/d3d08bc1aa5a0ac116f5d82ba5aea52c/transformed/graphics-shapes-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/mateussfeir/.gradle/caches/8.13/transforms/cd0b97bd7691e61a2bf081c75feb747d/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/mateussfeir/.gradle/caches/8.13/transforms/cd0b97bd7691e61a2bf081c75feb747d/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/mateussfeir/.gradle/caches/8.13/transforms/6f77e618ee3d431764a024ec34f39e5b/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/mateussfeir/.gradle/caches/8.13/transforms/6f77e618ee3d431764a024ec34f39e5b/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/mateussfeir/.gradle/caches/8.13/transforms/66de7003d28adf34b1429c298e55fc98/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/mateussfeir/.gradle/caches/8.13/transforms/66de7003d28adf34b1429c298e55fc98/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/mateussfeir/.gradle/caches/8.13/transforms/f96bc99188d5bd040d3813169935de2a/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/mateussfeir/.gradle/caches/8.13/transforms/f96bc99188d5bd040d3813169935de2a/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/mateussfeir/.gradle/caches/8.13/transforms/2b05262e0dc313bf9f85b8f937b11e87/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/mateussfeir/.gradle/caches/8.13/transforms/2b05262e0dc313bf9f85b8f937b11e87/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/mateussfeir/.gradle/caches/8.13/transforms/fd35598e2fb0f320ad46f23d420866c8/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/mateussfeir/.gradle/caches/8.13/transforms/fd35598e2fb0f320ad46f23d420866c8/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/mateussfeir/.gradle/caches/8.13/transforms/6f1be6ecb5658baa94079ce02518eb4a/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/mateussfeir/.gradle/caches/8.13/transforms/6f1be6ecb5658baa94079ce02518eb4a/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.17.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/8de988a39218193ea469e4c75dd6b95c/transformed/core-ktx-1.17.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.17.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/8de988a39218193ea469e4c75dd6b95c/transformed/core-ktx-1.17.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/441fac6d54c7f4b0a6d938b09feb16ae/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/441fac6d54c7f4b0a6d938b09feb16ae/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/b890c1a59cb45fd105337705e7251e17/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/b890c1a59cb45fd105337705e7251e17/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/6655da303d0d2b439a0a731d7be2a397/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/6655da303d0d2b439a0a731d7be2a397/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/15d40f90168bf1a47fc0f4dd7929a32b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/15d40f90168bf1a47fc0f4dd7929a32b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/mateussfeir/.gradle/caches/8.13/transforms/9b78810d16e17fa0a19aa00bc0b33dd4/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/mateussfeir/.gradle/caches/8.13/transforms/9b78810d16e17fa0a19aa00bc0b33dd4/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/c679f60f9d8f16a050da851bb5838bae/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/c679f60f9d8f16a050da851bb5838bae/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/b55fba1a369b049f325faee5c165cfde/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/b55fba1a369b049f325faee5c165cfde/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mateussfeir/.gradle/caches/8.13/transforms/a412b0f0a660406ed0611ba7f1ef5611/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mateussfeir/.gradle/caches/8.13/transforms/a412b0f0a660406ed0611ba7f1ef5611/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/8327313d13c1a0f547909922e450b4e3/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/8327313d13c1a0f547909922e450b4e3/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/mateussfeir/.gradle/caches/8.13/transforms/9bf92c6f76ec0ba58ce969fea356483c/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/mateussfeir/.gradle/caches/8.13/transforms/9bf92c6f76ec0ba58ce969fea356483c/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/mateussfeir/Desktop/GBC_5th_sem/COMP3074-Mob_App_Dev_I/Assignment_HairSaloon/UI_Interface_COMP3074/UIPrototypeBeta/app/src/main/AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/b3ad4b91aa0e1265e15636306fc987f5/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/mateussfeir/.gradle/caches/8.13/transforms/f96bc99188d5bd040d3813169935de2a/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/mateussfeir/.gradle/caches/8.13/transforms/f96bc99188d5bd040d3813169935de2a/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/15d40f90168bf1a47fc0f4dd7929a32b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/15d40f90168bf1a47fc0f4dd7929a32b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/mateussfeir/.gradle/caches/8.13/transforms/9b78810d16e17fa0a19aa00bc0b33dd4/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/mateussfeir/.gradle/caches/8.13/transforms/9b78810d16e17fa0a19aa00bc0b33dd4/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/b3ad4b91aa0e1265e15636306fc987f5/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/b3ad4b91aa0e1265e15636306fc987f5/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/b3ad4b91aa0e1265e15636306fc987f5/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/b3ad4b91aa0e1265e15636306fc987f5/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/b3ad4b91aa0e1265e15636306fc987f5/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/b3ad4b91aa0e1265e15636306fc987f5/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/b3ad4b91aa0e1265e15636306fc987f5/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.17.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/9db61daecb858419b500ed7fc876daf2/transformed/core-1.17.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.17.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/9db61daecb858419b500ed7fc876daf2/transformed/core-1.17.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.17.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/9db61daecb858419b500ed7fc876daf2/transformed/core-1.17.0/AndroidManifest.xml:23:9-81
+permission#com.example.uiprototypebeta.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.17.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/9db61daecb858419b500ed7fc876daf2/transformed/core-1.17.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.17.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/9db61daecb858419b500ed7fc876daf2/transformed/core-1.17.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.17.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/9db61daecb858419b500ed7fc876daf2/transformed/core-1.17.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.17.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/9db61daecb858419b500ed7fc876daf2/transformed/core-1.17.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.17.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/9db61daecb858419b500ed7fc876daf2/transformed/core-1.17.0/AndroidManifest.xml:26:22-94
+uses-permission#com.example.uiprototypebeta.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.17.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/9db61daecb858419b500ed7fc876daf2/transformed/core-1.17.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.17.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/9db61daecb858419b500ed7fc876daf2/transformed/core-1.17.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/mateussfeir/.gradle/caches/8.13/transforms/f96bc99188d5bd040d3813169935de2a/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/mateussfeir/.gradle/caches/8.13/transforms/f96bc99188d5bd040d3813169935de2a/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/mateussfeir/.gradle/caches/8.13/transforms/f96bc99188d5bd040d3813169935de2a/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/15d40f90168bf1a47fc0f4dd7929a32b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/15d40f90168bf1a47fc0f4dd7929a32b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/15d40f90168bf1a47fc0f4dd7929a32b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/15d40f90168bf1a47fc0f4dd7929a32b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/15d40f90168bf1a47fc0f4dd7929a32b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/15d40f90168bf1a47fc0f4dd7929a32b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/15d40f90168bf1a47fc0f4dd7929a32b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/15d40f90168bf1a47fc0f4dd7929a32b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/15d40f90168bf1a47fc0f4dd7929a32b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/15d40f90168bf1a47fc0f4dd7929a32b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/15d40f90168bf1a47fc0f4dd7929a32b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/15d40f90168bf1a47fc0f4dd7929a32b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/15d40f90168bf1a47fc0f4dd7929a32b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/15d40f90168bf1a47fc0f4dd7929a32b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/15d40f90168bf1a47fc0f4dd7929a32b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/15d40f90168bf1a47fc0f4dd7929a32b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/15d40f90168bf1a47fc0f4dd7929a32b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/15d40f90168bf1a47fc0f4dd7929a32b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/15d40f90168bf1a47fc0f4dd7929a32b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/15d40f90168bf1a47fc0f4dd7929a32b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/mateussfeir/.gradle/caches/8.13/transforms/15d40f90168bf1a47fc0f4dd7929a32b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92

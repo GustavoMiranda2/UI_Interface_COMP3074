@@ -1,0 +1,206 @@
+[
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/menu_drawer_menu.xml.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/menu/drawer_menu.xml"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/drawable_bg_chip.xml.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/drawable/bg_chip.xml"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/layout_activity_drawer_base.xml.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/layout/activity_drawer_base.xml"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/xml_backup_rules.xml.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/layout_item_post.xml.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/layout/item_post.xml"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/drawable_ic_close_24.xml.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/drawable/ic_close_24.xml"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/color_nav_item_icon.xml.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/color/nav_item_icon.xml"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/drawable_ic_dashboard_24.xml.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/drawable/ic_dashboard_24.xml"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/drawable_ic_login_24.xml.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/drawable/ic_login_24.xml"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/drawable_ic_calendar_24.xml.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/drawable/ic_calendar_24.xml"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/drawable_bg_testimonial_card.xml.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/drawable/bg_testimonial_card.xml"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/color_selector_card_stroke.xml.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/color/selector_card_stroke.xml"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/layout_item_service.xml.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/layout/item_service.xml"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/layout_activity_sign_up.xml.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/drawable_ic_menu_24.xml.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/drawable/ic_menu_24.xml"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/color_nav_item_text.xml.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/color/nav_item_text.xml"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/layout_nav_divider.xml.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/layout/nav_divider.xml"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/drawable_bg_card.xml.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/drawable/bg_card.xml"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/drawable_ic_article_24.xml.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/drawable/ic_article_24.xml"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/drawable_ic_check_24.xml.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/drawable/ic_check_24.xml"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/drawable_drawer_item_bg.xml.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/drawable/drawer_item_bg.xml"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/layout_activity_login.xml.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/layout_nav_section_header_primary.xml.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/layout/nav_section_header_primary.xml"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/drawable_ic_photo_24.xml.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/drawable/ic_photo_24.xml"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/layout_content_portfolio.xml.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/layout/content_portfolio.xml"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/layout_content_booking.xml.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/layout/content_booking.xml"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/drawable_ic_home_24.xml.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/drawable/ic_home_24.xml"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/layout_nav_section_header_access.xml.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/layout/nav_section_header_access.xml"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/color_brand_primary.xml.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/color/brand_primary.xml"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/drawable_bg_bottom_cta.xml.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/drawable/bg_bottom_cta.xml"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/layout_content_blog_detail.xml.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/layout/content_blog_detail.xml"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/drawable_bg_placeholder.xml.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/drawable/bg_placeholder.xml"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/layout_content_blog.xml.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/layout/content_blog.xml"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/layout_activity_admin_login.xml.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/layout/activity_admin_login.xml"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/layout_content_admin.xml.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/layout/content_admin.xml"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/layout_content_home.xml.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/layout/content_home.xml"
+    }
+]
