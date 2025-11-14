@@ -126,7 +126,7 @@ open class BaseDrawerActivity : AppCompatActivity() {
         clearNavSelection()
         showLogoutOption(false)
         drawerLayout.closeDrawer(GravityCompat.END)
-        val intent = Intent(this, AdminLoginActivity::class.java).apply {
+        val intent = Intent(this, LoginActivity::class.java).apply {
             addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
         }
         startActivity(intent)
@@ -135,6 +135,10 @@ open class BaseDrawerActivity : AppCompatActivity() {
 
     protected fun showLogoutOption(visible: Boolean) {
         navView.menu.findItem(R.id.m_logout)?.isVisible = visible
+    }
+
+    protected fun showLoginOption(visible: Boolean) {
+        navView.menu.findItem(R.id.m_login)?.isVisible = visible
     }
 
     private fun goToLoginScreen() {
