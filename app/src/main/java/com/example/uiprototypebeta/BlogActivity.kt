@@ -2,15 +2,21 @@ package com.example.uiprototypebeta
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import android.widget.LinearLayout
+import com.google.android.material.button.MaterialButton
 
 class BlogActivity : BaseDrawerActivity() {
+
+    private lateinit var newPostButton: MaterialButton
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentLayout(R.layout.content_blog)
         setToolbarTitle("Beauty Blog")
         setCheckedDrawerItem(R.id.m_blog)
+        newPostButton = findViewById(R.id.btnNewPost)
+        refreshNewPostVisibility()
 
         // Dummy list of 3 posts (future: replace with real data)
         val posts = listOf(
@@ -62,11 +68,18 @@ class BlogActivity : BaseDrawerActivity() {
         findViewById<LinearLayout>(R.id.cardPost3).setOnClickListener { openDetail(posts[2]) }
     }
 
+    override fun onResume() {
+        super.onResume()
+        refreshNewPostVisibility()
+    }
+
     private fun openDetail(post: Post) {
         val i = Intent(this, BlogDetailActivity::class.java)
         i.putExtra("post", post)
         startActivity(i)
     }
+
+    private fun refreshNewPostVisibility() {
+        newPostButton.visibility = if (AdminSession.isLoggedIn) View.VISIBLE else View.GONE
+    }
 }
-
-

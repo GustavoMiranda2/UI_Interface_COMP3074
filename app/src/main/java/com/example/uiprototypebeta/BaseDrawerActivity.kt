@@ -89,6 +89,10 @@ open class BaseDrawerActivity : AppCompatActivity() {
                 if (this !is LoginActivity) goToLoginScreen()
                 return true
             }
+            R.id.m_logout -> {
+                performAdminLogout()
+                return true
+            }
             R.id.m_home      -> if (this !is HomeActivity) startActivity(Intent(this, HomeActivity::class.java))
             R.id.m_book      -> if (this !is BookingActivity) startActivity(Intent(this, BookingActivity::class.java))
             R.id.m_portfolio -> if (this !is PortfolioActivity) startActivity(Intent(this, PortfolioActivity::class.java))
@@ -116,6 +120,26 @@ open class BaseDrawerActivity : AppCompatActivity() {
             }
         }
         adminFooter.isSelected = false
+    }
+
+    private fun performAdminLogout() {
+        clearNavSelection()
+        showLogoutOption(false)
+        AdminSession.isLoggedIn = false
+        drawerLayout.closeDrawer(GravityCompat.END)
+        val intent = Intent(this, LoginActivity::class.java).apply {
+            addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
+        }
+        startActivity(intent)
+        finish()
+    }
+
+    protected fun showLogoutOption(visible: Boolean) {
+        navView.menu.findItem(R.id.m_logout)?.isVisible = visible
+    }
+
+    protected fun showLoginOption(visible: Boolean) {
+        navView.menu.findItem(R.id.m_login)?.isVisible = visible
     }
 
     private fun goToLoginScreen() {

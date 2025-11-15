@@ -29,6 +29,7 @@ class AdminLoginActivity : AppCompatActivity() {
             if (username == "admin" && password == "123") {
                 // If correct, show success and navigate
                 Toast.makeText(this, "Login Successful!", Toast.LENGTH_SHORT).show()
+                AdminSession.isLoggedIn = true
                 val intent = Intent(this, AdminDashboardActivity::class.java)
                 startActivity(intent)
                 finish()
