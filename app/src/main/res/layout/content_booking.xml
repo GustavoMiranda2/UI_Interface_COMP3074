@@ -225,11 +225,19 @@
     </com.google.android.material.card.MaterialCardView>
 
     <!-- Continue button -->
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btnContinue"
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:text="Continue"
-        android:layout_marginTop="16dp"
-        android:enabled="false"/>
+<com.google.android.material.button.MaterialButton
+    android:id="@+id/btnContinue"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:text="Continue"
+    android:layout_marginTop="16dp"
+    android:enabled="false"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:text="Need another service? Please submit a new booking so each selection gets its own time slot."
+    android:textColor="@color/brand_muted"
+    android:textSize="12sp"/>
 </LinearLayout>
