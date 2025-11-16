@@ -5,6 +5,9 @@ import android.view.View
 import android.widget.Button
 import android.widget.LinearLayout
 
+//Name: Gustavo Miranda
+//Student ID: 101488574
+
 class PortfolioActivity : BaseDrawerActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
