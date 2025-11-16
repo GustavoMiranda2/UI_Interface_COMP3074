@@ -1,9 +1,11 @@
 package com.example.uiprototypebeta
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.content.res.AppCompatResources
 import com.google.android.material.button.MaterialButton
 import com.google.android.material.card.MaterialCardView
+import com.google.android.material.dialog.MaterialAlertDialogBuilder
 
 class BookingActivity : BaseDrawerActivity() {
 
@@ -26,10 +28,11 @@ class BookingActivity : BaseDrawerActivity() {
         val all = listOf(cardHaircut, cardHaircutBeard, cardEyebrows)
 
         // make cards checkable + place check icon at TOP_END
-        val check = AppCompatResources.getDrawable(this, R.drawable.ic_check_24)
         all.forEach { card ->
             card.isCheckable = true
-            card.checkedIcon = check
+            card.checkedIcon = AppCompatResources
+                .getDrawable(this, R.drawable.ic_check_24)
+                ?.mutate() // ensure cards don't share stateful drawable
             card.checkedIconGravity = MaterialCardView.CHECKED_ICON_GRAVITY_TOP_END
         }
 
@@ -40,11 +43,19 @@ class BookingActivity : BaseDrawerActivity() {
 
         all.forEach { card -> card.setOnClickListener { select(card) } }
 
-        // Optional: preselect one
-        // select(cardHaircut)
+        btnContinue.setOnClickListener {
+            MaterialAlertDialogBuilder(this)
+                .setTitle(R.string.login_required_title)
+                .setMessage(R.string.login_required_message)
+                .setPositiveButton(R.string.action_ok) { _, _ ->
+                    startActivity(Intent(this, LoginActivity::class.java).apply {
+                        addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
+                    })
+                }
+                .setNegativeButton(R.string.action_cancel, null)
+                .show()
+        }
     }
 }
-
-
 
 
