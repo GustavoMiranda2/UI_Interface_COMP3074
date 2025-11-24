@@ -1,0 +1,230 @@
+[
+    {
+        "merged": "com.example.uiprototypebeta.app-debug-36:/menu_drawer_menu.xml.flat",
+        "source": "com.example.uiprototypebeta.app-main-38:/menu/drawer_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\drawable_ic_calendar_24.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\drawable\\ic_calendar_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\drawable_ic_close_24.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\drawable\\ic_close_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\drawable_bg_testimonial_card.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\drawable\\bg_testimonial_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\drawable_home_logo_background.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\drawable\\home_logo_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\layout_content_booking.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\layout\\content_booking.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\drawable_ic_logout_24.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\drawable\\ic_logout_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\color_selector_card_stroke.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\color\\selector_card_stroke.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\layout_item_post.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\layout\\item_post.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\drawable_bg_placeholder.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\drawable\\bg_placeholder.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\drawable_ic_login_24.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\drawable\\ic_login_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\layout_content_home.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\layout\\content_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\drawable_ic_article_24.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\drawable\\ic_article_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\layout_content_blog.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\layout\\content_blog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\layout_activity_drawer_base.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\layout\\activity_drawer_base.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\layout_content_user.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\layout\\content_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\drawable_bg_chip.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\drawable\\bg_chip.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\layout_activity_sign_up.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\layout\\activity_sign_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\layout_content_blog_detail.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\layout\\content_blog_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\drawable_ic_home_24.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\drawable\\ic_home_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\color_nav_item_icon.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\color\\nav_item_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\drawable_ic_photo_24.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\drawable\\ic_photo_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\drawable_drawer_panel_background.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\drawable\\drawer_panel_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\drawable_bg_card.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\drawable\\bg_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\layout_content_portfolio.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\layout\\content_portfolio.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\drawable_bg_bottom_cta.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\drawable\\bg_bottom_cta.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\color_nav_item_text.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\color\\nav_item_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\drawable_drawer_item_bg.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\drawable\\drawer_item_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\layout_nav_section_header_primary.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\layout\\nav_section_header_primary.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\menu_drawer_menu.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\menu\\drawer_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\layout_item_service.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\layout\\item_service.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\drawable_ic_dashboard_24.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\drawable\\ic_dashboard_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\drawable_ic_menu_24.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\drawable\\ic_menu_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\layout_nav_section_header_access.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\layout\\nav_section_header_access.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\color_brand_primary.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\color\\brand_primary.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\layout_nav_divider.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\layout\\nav_divider.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\layout_activity_admin_login.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\layout\\activity_admin_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\layout_content_admin.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\layout\\content_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\drawable_ic_check_24.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\drawable\\ic_check_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\drawable_service_icon_background.xml.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\drawable\\service_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-debug-36:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\mipmap-xxhdpi\\ic_launcher.webp"
+    }
+]
