@@ -5,6 +5,7 @@
     <string name="navigation_drawer_close">Close navigation menu</string>
     <string name="admin_login">Admin login</string>
     <string name="admin_logout">Log out</string>
+    <string name="user_login">User login</string>
     <string name="login_required_title">Login required</string>
     <string name="login_required_message">Please sign in before continuing with your booking.</string>
     <string name="action_ok">OK</string>

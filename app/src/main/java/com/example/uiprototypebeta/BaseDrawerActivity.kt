@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.MenuItem
 import android.view.View
 import android.widget.FrameLayout
+import android.widget.TextView
 import androidx.activity.OnBackPressedCallback
 import androidx.annotation.IdRes
 import androidx.annotation.LayoutRes
@@ -22,6 +23,8 @@ open class BaseDrawerActivity : AppCompatActivity() {
     private lateinit var toolbar: MaterialToolbar
     private lateinit var navView: NavigationView
     private lateinit var adminFooter: View
+    private lateinit var userFooter: View
+    private lateinit var userLabel: TextView
     private lateinit var contentFrame: FrameLayout
     private lateinit var toggle: ActionBarDrawerToggle
 
@@ -33,6 +36,8 @@ open class BaseDrawerActivity : AppCompatActivity() {
         toolbar = findViewById(R.id.toolbar)
         navView = findViewById(R.id.navView)
         adminFooter = findViewById(R.id.m_admin)
+        userFooter = findViewById(R.id.m_user)
+        userLabel = findViewById(R.id.userLabel)
         contentFrame = findViewById(R.id.contentFrame)
 
         setSupportActionBar(toolbar)
@@ -55,6 +60,9 @@ open class BaseDrawerActivity : AppCompatActivity() {
 
         navView.setNavigationItemSelectedListener { onDrawerItem(it) }
         adminFooter.setOnClickListener { onAdminClicked() }
+        userFooter.setOnClickListener { onUserClicked() }
+        updateUserFooterLabel()
+        syncAuthVisibility()
 
         onBackPressedDispatcher.addCallback(this, object : OnBackPressedCallback(true) {
             override fun handleOnBackPressed() {
@@ -67,6 +75,12 @@ open class BaseDrawerActivity : AppCompatActivity() {
         })
     }
 
+    override fun onResume() {
+        super.onResume()
+        updateUserFooterLabel()
+        syncAuthVisibility()
+    }
+
     protected fun setContentLayout(@LayoutRes layoutRes: Int) {
         LayoutInflater.from(this).inflate(layoutRes, contentFrame, true)
     }
@@ -77,20 +91,20 @@ open class BaseDrawerActivity : AppCompatActivity() {
         if (menuId == R.id.m_admin) {
             clearNavSelection()
             adminFooter.isSelected = true
+        } else if (menuId == R.id.m_user) {
+            clearNavSelection()
+            userFooter.isSelected = true
         } else {
             adminFooter.isSelected = false
+            userFooter.isSelected = false
             navView.menu.findItem(menuId)?.let { navView.setCheckedItem(menuId) }
         }
     }
 
     private fun onDrawerItem(item: MenuItem): Boolean {
         when (item.itemId) {
-            R.id.m_login -> {
-                if (this !is LoginActivity) goToLoginScreen()
-                return true
-            }
             R.id.m_logout -> {
-                performAdminLogout()
+                performLogout()
                 return true
             }
             R.id.m_home      -> if (this !is HomeActivity) startActivity(Intent(this, HomeActivity::class.java))
@@ -108,6 +122,16 @@ open class BaseDrawerActivity : AppCompatActivity() {
         drawerLayout.closeDrawer(GravityCompat.END)
     }
 
+    private fun onUserClicked() {
+        clearNavSelection()
+        if (UserSession.isLoggedIn) {
+            if (this !is UserDashboardActivity) startActivity(Intent(this, UserDashboardActivity::class.java))
+        } else {
+            if (this !is LoginActivity) goToLoginScreen()
+        }
+        drawerLayout.closeDrawer(GravityCompat.END)
+    }
+
     private fun clearNavSelection() {
         val menu = navView.menu
         for (i in 0 until menu.size()) {
@@ -120,12 +144,15 @@ open class BaseDrawerActivity : AppCompatActivity() {
             }
         }
         adminFooter.isSelected = false
+        userFooter.isSelected = false
     }
 
-    private fun performAdminLogout() {
+    private fun performLogout() {
         clearNavSelection()
         showLogoutOption(false)
         AdminSession.isLoggedIn = false
+        UserSession.isLoggedIn = false
+        updateUserFooterLabel()
         drawerLayout.closeDrawer(GravityCompat.END)
         val intent = Intent(this, LoginActivity::class.java).apply {
             addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
@@ -138,8 +165,17 @@ open class BaseDrawerActivity : AppCompatActivity() {
         navView.menu.findItem(R.id.m_logout)?.isVisible = visible
     }
 
-    protected fun showLoginOption(visible: Boolean) {
-        navView.menu.findItem(R.id.m_login)?.isVisible = visible
+    private fun syncAuthVisibility() {
+        val isAnyoneLoggedIn = AdminSession.isLoggedIn || UserSession.isLoggedIn
+        showLogoutOption(isAnyoneLoggedIn)
+    }
+
+    protected fun updateUserFooterLabel() {
+        userLabel.text = if (UserSession.isLoggedIn && UserSession.displayName.isNotBlank()) {
+            "${UserSession.displayName} logged in"
+        } else {
+            getString(R.string.user_login)
+        }
     }
 
     private fun goToLoginScreen() {

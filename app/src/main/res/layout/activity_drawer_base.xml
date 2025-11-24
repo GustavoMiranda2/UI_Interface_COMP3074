@@ -55,6 +55,39 @@
             app:menu="@menu/drawer_menu" />
 
         <LinearLayout
+            android:id="@+id/m_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/drawer_item_bg"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:contentDescription="@string/user_login"
+                android:duplicateParentState="true"
+                android:src="@drawable/ic_login_24"
+                android:tint="@color/nav_item_icon" />
+
+            <TextView
+                android:id="@+id/userLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:duplicateParentState="true"
+                android:text="@string/user_login"
+                android:textColor="@color/nav_item_text"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
             android:id="@+id/m_admin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

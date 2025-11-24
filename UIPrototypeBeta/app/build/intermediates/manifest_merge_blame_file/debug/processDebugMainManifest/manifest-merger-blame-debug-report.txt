@@ -1,0 +1,156 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.uiprototypebeta"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="36" />
+10
+11    <permission
+11-->[androidx.core:core:1.17.0] C:\Users\Lucas\.gradle\caches\8.13\transforms\cb5f6f8bf2c7a7ef52f138f50dee19f9\transformed\core-1.17.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.uiprototypebeta.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.17.0] C:\Users\Lucas\.gradle\caches\8.13\transforms\cb5f6f8bf2c7a7ef52f138f50dee19f9\transformed\core-1.17.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.17.0] C:\Users\Lucas\.gradle\caches\8.13\transforms\cb5f6f8bf2c7a7ef52f138f50dee19f9\transformed\core-1.17.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.uiprototypebeta.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.17.0] C:\Users\Lucas\.gradle\caches\8.13\transforms\cb5f6f8bf2c7a7ef52f138f50dee19f9\transformed\core-1.17.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.17.0] C:\Users\Lucas\.gradle\caches\8.13\transforms\cb5f6f8bf2c7a7ef52f138f50dee19f9\transformed\core-1.17.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Users\Lucas\College\UI_Interface_COMP3074\UIPrototypeBeta\app\src\main\AndroidManifest.xml:5:5-23:19
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.17.0] C:\Users\Lucas\.gradle\caches\8.13\transforms\cb5f6f8bf2c7a7ef52f138f50dee19f9\transformed\core-1.17.0\AndroidManifest.xml:28:18-86
+19        android:debuggable="true"
+20        android:extractNativeLibs="false"
+21        android:icon="@mipmap/ic_launcher"
+21-->C:\Users\Lucas\College\UI_Interface_COMP3074\UIPrototypeBeta\app\src\main\AndroidManifest.xml:8:9-43
+22        android:label="@string/app_name"
+22-->C:\Users\Lucas\College\UI_Interface_COMP3074\UIPrototypeBeta\app\src\main\AndroidManifest.xml:7:9-41
+23        android:testOnly="true"
+24        android:theme="@style/Theme.UIPrototype" >
+24-->C:\Users\Lucas\College\UI_Interface_COMP3074\UIPrototypeBeta\app\src\main\AndroidManifest.xml:6:9-49
+25        <activity
+25-->C:\Users\Lucas\College\UI_Interface_COMP3074\UIPrototypeBeta\app\src\main\AndroidManifest.xml:10:9-84
+26            android:name="com.example.uiprototypebeta.AdminDashboardActivity"
+26-->C:\Users\Lucas\College\UI_Interface_COMP3074\UIPrototypeBeta\app\src\main\AndroidManifest.xml:10:19-57
+27            android:exported="false" />
+27-->C:\Users\Lucas\College\UI_Interface_COMP3074\UIPrototypeBeta\app\src\main\AndroidManifest.xml:10:58-82
+28        <activity
+28-->C:\Users\Lucas\College\UI_Interface_COMP3074\UIPrototypeBeta\app\src\main\AndroidManifest.xml:11:9-74
+29            android:name="com.example.uiprototypebeta.BlogActivity"
+29-->C:\Users\Lucas\College\UI_Interface_COMP3074\UIPrototypeBeta\app\src\main\AndroidManifest.xml:11:19-47
+30            android:exported="false" />
+30-->C:\Users\Lucas\College\UI_Interface_COMP3074\UIPrototypeBeta\app\src\main\AndroidManifest.xml:11:48-72
+31        <activity
+31-->C:\Users\Lucas\College\UI_Interface_COMP3074\UIPrototypeBeta\app\src\main\AndroidManifest.xml:12:9-80
+32            android:name="com.example.uiprototypebeta.BlogDetailActivity"
+32-->C:\Users\Lucas\College\UI_Interface_COMP3074\UIPrototypeBeta\app\src\main\AndroidManifest.xml:12:19-53
+33            android:exported="false" />
+33-->C:\Users\Lucas\College\UI_Interface_COMP3074\UIPrototypeBeta\app\src\main\AndroidManifest.xml:12:54-78
+34        <activity
+34-->C:\Users\Lucas\College\UI_Interface_COMP3074\UIPrototypeBeta\app\src\main\AndroidManifest.xml:13:9-79
+35            android:name="com.example.uiprototypebeta.PortfolioActivity"
+35-->C:\Users\Lucas\College\UI_Interface_COMP3074\UIPrototypeBeta\app\src\main\AndroidManifest.xml:13:19-52
+36            android:exported="false" />
+36-->C:\Users\Lucas\College\UI_Interface_COMP3074\UIPrototypeBeta\app\src\main\AndroidManifest.xml:13:53-77
+37        <activity
+37-->C:\Users\Lucas\College\UI_Interface_COMP3074\UIPrototypeBeta\app\src\main\AndroidManifest.xml:14:9-77
+38            android:name="com.example.uiprototypebeta.BookingActivity"
+38-->C:\Users\Lucas\College\UI_Interface_COMP3074\UIPrototypeBeta\app\src\main\AndroidManifest.xml:14:19-50
+39            android:exported="false" />
+39-->C:\Users\Lucas\College\UI_Interface_COMP3074\UIPrototypeBeta\app\src\main\AndroidManifest.xml:14:51-75
+40        <activity
+40-->C:\Users\Lucas\College\UI_Interface_COMP3074\UIPrototypeBeta\app\src\main\AndroidManifest.xml:15:9-74
+41            android:name="com.example.uiprototypebeta.HomeActivity"
+41-->C:\Users\Lucas\College\UI_Interface_COMP3074\UIPrototypeBeta\app\src\main\AndroidManifest.xml:15:19-47
+42            android:exported="false" />
+42-->C:\Users\Lucas\College\UI_Interface_COMP3074\UIPrototypeBeta\app\src\main\AndroidManifest.xml:15:48-72
+43        <activity
+43-->C:\Users\Lucas\College\UI_Interface_COMP3074\UIPrototypeBeta\app\src\main\AndroidManifest.xml:17:9-22:20
+44            android:name="com.example.uiprototypebeta.LoginActivity"
+44-->C:\Users\Lucas\College\UI_Interface_COMP3074\UIPrototypeBeta\app\src\main\AndroidManifest.xml:17:19-48
+45            android:exported="true" >
+45-->C:\Users\Lucas\College\UI_Interface_COMP3074\UIPrototypeBeta\app\src\main\AndroidManifest.xml:17:49-72
+46            <intent-filter>
+46-->C:\Users\Lucas\College\UI_Interface_COMP3074\UIPrototypeBeta\app\src\main\AndroidManifest.xml:18:13-21:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\Users\Lucas\College\UI_Interface_COMP3074\UIPrototypeBeta\app\src\main\AndroidManifest.xml:19:17-69
+47-->C:\Users\Lucas\College\UI_Interface_COMP3074\UIPrototypeBeta\app\src\main\AndroidManifest.xml:19:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->C:\Users\Lucas\College\UI_Interface_COMP3074\UIPrototypeBeta\app\src\main\AndroidManifest.xml:20:17-77
+49-->C:\Users\Lucas\College\UI_Interface_COMP3074\UIPrototypeBeta\app\src\main\AndroidManifest.xml:20:27-74
+50            </intent-filter>
+51        </activity>
+52
+53        <provider
+53-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Lucas\.gradle\caches\8.13\transforms\a4c898b749837c45faf546dcf3d424a1\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+54            android:name="androidx.startup.InitializationProvider"
+54-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Lucas\.gradle\caches\8.13\transforms\a4c898b749837c45faf546dcf3d424a1\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+55            android:authorities="com.example.uiprototypebeta.androidx-startup"
+55-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Lucas\.gradle\caches\8.13\transforms\a4c898b749837c45faf546dcf3d424a1\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+56            android:exported="false" >
+56-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Lucas\.gradle\caches\8.13\transforms\a4c898b749837c45faf546dcf3d424a1\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+57            <meta-data
+57-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Lucas\.gradle\caches\8.13\transforms\a4c898b749837c45faf546dcf3d424a1\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+58                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+58-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Lucas\.gradle\caches\8.13\transforms\a4c898b749837c45faf546dcf3d424a1\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+59                android:value="androidx.startup" />
+59-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Lucas\.gradle\caches\8.13\transforms\a4c898b749837c45faf546dcf3d424a1\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+60            <meta-data
+60-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Lucas\.gradle\caches\8.13\transforms\d3763f261812a65b837d2ae77601bdce\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+61                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+61-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Lucas\.gradle\caches\8.13\transforms\d3763f261812a65b837d2ae77601bdce\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+62                android:value="androidx.startup" />
+62-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Lucas\.gradle\caches\8.13\transforms\d3763f261812a65b837d2ae77601bdce\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+63            <meta-data
+63-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lucas\.gradle\caches\8.13\transforms\ab84e5f65df9a9be409425061bd6916e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+64                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+64-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lucas\.gradle\caches\8.13\transforms\ab84e5f65df9a9be409425061bd6916e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+65                android:value="androidx.startup" />
+65-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lucas\.gradle\caches\8.13\transforms\ab84e5f65df9a9be409425061bd6916e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+66        </provider>
+67
+68        <receiver
+68-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lucas\.gradle\caches\8.13\transforms\ab84e5f65df9a9be409425061bd6916e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+69            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+69-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lucas\.gradle\caches\8.13\transforms\ab84e5f65df9a9be409425061bd6916e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+70            android:directBootAware="false"
+70-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lucas\.gradle\caches\8.13\transforms\ab84e5f65df9a9be409425061bd6916e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+71            android:enabled="true"
+71-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lucas\.gradle\caches\8.13\transforms\ab84e5f65df9a9be409425061bd6916e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+72            android:exported="true"
+72-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lucas\.gradle\caches\8.13\transforms\ab84e5f65df9a9be409425061bd6916e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+73            android:permission="android.permission.DUMP" >
+73-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lucas\.gradle\caches\8.13\transforms\ab84e5f65df9a9be409425061bd6916e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+74            <intent-filter>
+74-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lucas\.gradle\caches\8.13\transforms\ab84e5f65df9a9be409425061bd6916e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+75                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+75-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lucas\.gradle\caches\8.13\transforms\ab84e5f65df9a9be409425061bd6916e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+75-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lucas\.gradle\caches\8.13\transforms\ab84e5f65df9a9be409425061bd6916e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+76            </intent-filter>
+77            <intent-filter>
+77-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lucas\.gradle\caches\8.13\transforms\ab84e5f65df9a9be409425061bd6916e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+78                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+78-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lucas\.gradle\caches\8.13\transforms\ab84e5f65df9a9be409425061bd6916e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+78-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lucas\.gradle\caches\8.13\transforms\ab84e5f65df9a9be409425061bd6916e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+79            </intent-filter>
+80            <intent-filter>
+80-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lucas\.gradle\caches\8.13\transforms\ab84e5f65df9a9be409425061bd6916e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+81                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+81-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lucas\.gradle\caches\8.13\transforms\ab84e5f65df9a9be409425061bd6916e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+81-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lucas\.gradle\caches\8.13\transforms\ab84e5f65df9a9be409425061bd6916e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+82            </intent-filter>
+83            <intent-filter>
+83-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lucas\.gradle\caches\8.13\transforms\ab84e5f65df9a9be409425061bd6916e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+84                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+84-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lucas\.gradle\caches\8.13\transforms\ab84e5f65df9a9be409425061bd6916e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+84-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Lucas\.gradle\caches\8.13\transforms\ab84e5f65df9a9be409425061bd6916e\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+85            </intent-filter>
+86        </receiver>
+87    </application>
+88
+89</manifest>

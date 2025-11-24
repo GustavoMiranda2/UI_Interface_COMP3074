@@ -5,10 +5,6 @@
         android:id="@+id/group_primary"
         android:checkableBehavior="single">
         <item
-            android:id="@+id/m_login"
-            android:icon="@drawable/ic_login_24"
-            android:title="Log in" />
-        <item
             android:id="@+id/m_home"
             android:icon="@drawable/ic_home_24"
             android:title="Home" />

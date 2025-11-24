@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-mergeDebugResources-35:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-mergeDebugResources-35:\\layout\\content_admin.xml",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\layout\\content_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-mergeDebugResources-35:\\layout\\content_booking.xml",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\layout\\content_booking.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-mergeDebugResources-35:\\layout\\item_post.xml",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\layout\\item_post.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-mergeDebugResources-35:\\layout\\content_blog.xml",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\layout\\content_blog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-mergeDebugResources-35:\\layout\\nav_header.xml",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\layout\\nav_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-mergeDebugResources-35:\\layout\\item_service.xml",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\layout\\item_service.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-mergeDebugResources-35:\\layout\\nav_divider.xml",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\layout\\nav_divider.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-mergeDebugResources-35:\\layout\\content_portfolio.xml",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\layout\\content_portfolio.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-mergeDebugResources-35:\\layout\\content_blog_detail.xml",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\layout\\content_blog_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-mergeDebugResources-35:\\layout\\activity_drawer_base.xml",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\layout\\activity_drawer_base.xml"
+    },
+    {
+        "merged": "com.example.uiprototypebeta.app-mergeDebugResources-35:/layout/activity_drawer_base.xml",
+        "source": "com.example.uiprototypebeta.app-main-38:/layout/activity_drawer_base.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-mergeDebugResources-35:\\layout\\content_home.xml",
+        "source": "C:\\Users\\Lucas\\.gradle\\daemon\\8.13\\com.example.uiprototypebeta.app-main-38:\\layout\\content_home.xml"
+    }
+]
