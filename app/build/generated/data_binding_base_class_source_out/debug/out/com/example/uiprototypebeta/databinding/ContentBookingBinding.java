@@ -4,7 +4,8 @@ package com.example.uiprototypebeta.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.LinearLayout;
+import android.widget.CheckBox;
+import android.widget.ScrollView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -18,13 +19,13 @@ import java.lang.String;
 
 public final class ContentBookingBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final ScrollView rootView;
 
   @NonNull
-  public final MaterialButton btnContinue;
+  public final MaterialButton btnConfirm;
 
   @NonNull
-  public final MaterialCardView cardEyebrows;
+  public final MaterialCardView cardBeard;
 
   @NonNull
   public final MaterialCardView cardHaircut;
@@ -32,19 +33,23 @@ public final class ContentBookingBinding implements ViewBinding {
   @NonNull
   public final MaterialCardView cardHaircutBeard;
 
-  private ContentBookingBinding(@NonNull LinearLayout rootView, @NonNull MaterialButton btnContinue,
-      @NonNull MaterialCardView cardEyebrows, @NonNull MaterialCardView cardHaircut,
-      @NonNull MaterialCardView cardHaircutBeard) {
+  @NonNull
+  public final CheckBox cbBrows;
+
+  private ContentBookingBinding(@NonNull ScrollView rootView, @NonNull MaterialButton btnConfirm,
+      @NonNull MaterialCardView cardBeard, @NonNull MaterialCardView cardHaircut,
+      @NonNull MaterialCardView cardHaircutBeard, @NonNull CheckBox cbBrows) {
     this.rootView = rootView;
-    this.btnContinue = btnContinue;
-    this.cardEyebrows = cardEyebrows;
+    this.btnConfirm = btnConfirm;
+    this.cardBeard = cardBeard;
     this.cardHaircut = cardHaircut;
     this.cardHaircutBeard = cardHaircutBeard;
+    this.cbBrows = cbBrows;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public ScrollView getRoot() {
     return rootView;
   }
 
@@ -69,15 +74,15 @@ public final class ContentBookingBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btnContinue;
-      MaterialButton btnContinue = ViewBindings.findChildViewById(rootView, id);
-      if (btnContinue == null) {
+      id = R.id.btnConfirm;
+      MaterialButton btnConfirm = ViewBindings.findChildViewById(rootView, id);
+      if (btnConfirm == null) {
         break missingId;
       }
 
-      id = R.id.cardEyebrows;
-      MaterialCardView cardEyebrows = ViewBindings.findChildViewById(rootView, id);
-      if (cardEyebrows == null) {
+      id = R.id.cardBeard;
+      MaterialCardView cardBeard = ViewBindings.findChildViewById(rootView, id);
+      if (cardBeard == null) {
         break missingId;
       }
 
@@ -93,8 +98,14 @@ public final class ContentBookingBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ContentBookingBinding((LinearLayout) rootView, btnContinue, cardEyebrows,
-          cardHaircut, cardHaircutBeard);
+      id = R.id.cbBrows;
+      CheckBox cbBrows = ViewBindings.findChildViewById(rootView, id);
+      if (cbBrows == null) {
+        break missingId;
+      }
+
+      return new ContentBookingBinding((ScrollView) rootView, btnConfirm, cardBeard, cardHaircut,
+          cardHaircutBeard, cbBrows);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

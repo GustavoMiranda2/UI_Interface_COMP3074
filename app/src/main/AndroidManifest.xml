@@ -14,6 +14,7 @@
         <activity android:name=".BlogDetailActivity" android:exported="false"/>
         <activity android:name=".PortfolioActivity" android:exported="false"/>
         <activity android:name=".BookingActivity" android:exported="false"/>
+        <activity android:name=".BookingScheduleActivity" android:exported="false"/>
         <activity android:name=".HomeActivity" android:exported="false"/>
         <activity android:name=".UserDashboardActivity" android:exported="false"/>
 
