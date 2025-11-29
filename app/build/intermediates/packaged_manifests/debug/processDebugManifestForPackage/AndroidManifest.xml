@@ -44,6 +44,9 @@
             android:name="com.example.uiprototypebeta.BookingActivity"
             android:exported="false" />
         <activity
+            android:name="com.example.uiprototypebeta.BookingScheduleActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.uiprototypebeta.HomeActivity"
             android:exported="false" />
         <activity

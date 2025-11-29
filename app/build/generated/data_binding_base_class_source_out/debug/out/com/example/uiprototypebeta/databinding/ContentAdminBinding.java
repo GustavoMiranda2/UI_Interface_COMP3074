@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.CalendarView;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
+import android.widget.ProgressBar;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -27,6 +28,12 @@ public final class ContentAdminBinding implements ViewBinding {
   public final FrameLayout adminContent;
 
   @NonNull
+  public final ScrollView analyticsContainer;
+
+  @NonNull
+  public final Button btnAnalytics;
+
+  @NonNull
   public final Button btnCalendar;
 
   @NonNull
@@ -42,20 +49,117 @@ public final class ContentAdminBinding implements ViewBinding {
   public final ScrollView listContainer;
 
   @NonNull
+  public final ProgressBar pbTopService1;
+
+  @NonNull
+  public final ProgressBar pbTopService2;
+
+  @NonNull
+  public final ProgressBar pbTopService3;
+
+  @NonNull
+  public final TextView tvBusiestDay;
+
+  @NonNull
+  public final TextView tvBusiestHour;
+
+  @NonNull
+  public final TextView tvCancelled;
+
+  @NonNull
   public final TextView tvDate;
 
+  @NonNull
+  public final TextView tvInsight1;
+
+  @NonNull
+  public final TextView tvInsight2;
+
+  @NonNull
+  public final TextView tvMonthAvgTicket;
+
+  @NonNull
+  public final TextView tvMonthBookings;
+
+  @NonNull
+  public final TextView tvMonthRevenue;
+
+  @NonNull
+  public final TextView tvNewClients;
+
+  @NonNull
+  public final TextView tvNoShowRate;
+
+  @NonNull
+  public final TextView tvNoShows;
+
+  @NonNull
+  public final TextView tvRetentionRate;
+
+  @NonNull
+  public final TextView tvReturningClients;
+
+  @NonNull
+  public final TextView tvTopService1;
+
+  @NonNull
+  public final TextView tvTopService2;
+
+  @NonNull
+  public final TextView tvTopService3;
+
+  @NonNull
+  public final TextView tvYearBookings;
+
+  @NonNull
+  public final TextView tvYearRevenue;
+
   private ContentAdminBinding(@NonNull LinearLayout rootView, @NonNull FrameLayout adminContent,
+      @NonNull ScrollView analyticsContainer, @NonNull Button btnAnalytics,
       @NonNull Button btnCalendar, @NonNull Button btnList, @NonNull LinearLayout calendarContainer,
       @NonNull CalendarView calendarView, @NonNull ScrollView listContainer,
-      @NonNull TextView tvDate) {
+      @NonNull ProgressBar pbTopService1, @NonNull ProgressBar pbTopService2,
+      @NonNull ProgressBar pbTopService3, @NonNull TextView tvBusiestDay,
+      @NonNull TextView tvBusiestHour, @NonNull TextView tvCancelled, @NonNull TextView tvDate,
+      @NonNull TextView tvInsight1, @NonNull TextView tvInsight2,
+      @NonNull TextView tvMonthAvgTicket, @NonNull TextView tvMonthBookings,
+      @NonNull TextView tvMonthRevenue, @NonNull TextView tvNewClients,
+      @NonNull TextView tvNoShowRate, @NonNull TextView tvNoShows,
+      @NonNull TextView tvRetentionRate, @NonNull TextView tvReturningClients,
+      @NonNull TextView tvTopService1, @NonNull TextView tvTopService2,
+      @NonNull TextView tvTopService3, @NonNull TextView tvYearBookings,
+      @NonNull TextView tvYearRevenue) {
     this.rootView = rootView;
     this.adminContent = adminContent;
+    this.analyticsContainer = analyticsContainer;
+    this.btnAnalytics = btnAnalytics;
     this.btnCalendar = btnCalendar;
     this.btnList = btnList;
     this.calendarContainer = calendarContainer;
     this.calendarView = calendarView;
     this.listContainer = listContainer;
+    this.pbTopService1 = pbTopService1;
+    this.pbTopService2 = pbTopService2;
+    this.pbTopService3 = pbTopService3;
+    this.tvBusiestDay = tvBusiestDay;
+    this.tvBusiestHour = tvBusiestHour;
+    this.tvCancelled = tvCancelled;
     this.tvDate = tvDate;
+    this.tvInsight1 = tvInsight1;
+    this.tvInsight2 = tvInsight2;
+    this.tvMonthAvgTicket = tvMonthAvgTicket;
+    this.tvMonthBookings = tvMonthBookings;
+    this.tvMonthRevenue = tvMonthRevenue;
+    this.tvNewClients = tvNewClients;
+    this.tvNoShowRate = tvNoShowRate;
+    this.tvNoShows = tvNoShows;
+    this.tvRetentionRate = tvRetentionRate;
+    this.tvReturningClients = tvReturningClients;
+    this.tvTopService1 = tvTopService1;
+    this.tvTopService2 = tvTopService2;
+    this.tvTopService3 = tvTopService3;
+    this.tvYearBookings = tvYearBookings;
+    this.tvYearRevenue = tvYearRevenue;
   }
 
   @Override
@@ -91,6 +195,18 @@ public final class ContentAdminBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.analyticsContainer;
+      ScrollView analyticsContainer = ViewBindings.findChildViewById(rootView, id);
+      if (analyticsContainer == null) {
+        break missingId;
+      }
+
+      id = R.id.btnAnalytics;
+      Button btnAnalytics = ViewBindings.findChildViewById(rootView, id);
+      if (btnAnalytics == null) {
+        break missingId;
+      }
+
       id = R.id.btnCalendar;
       Button btnCalendar = ViewBindings.findChildViewById(rootView, id);
       if (btnCalendar == null) {
@@ -121,14 +237,144 @@ public final class ContentAdminBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.pbTopService1;
+      ProgressBar pbTopService1 = ViewBindings.findChildViewById(rootView, id);
+      if (pbTopService1 == null) {
+        break missingId;
+      }
+
+      id = R.id.pbTopService2;
+      ProgressBar pbTopService2 = ViewBindings.findChildViewById(rootView, id);
+      if (pbTopService2 == null) {
+        break missingId;
+      }
+
+      id = R.id.pbTopService3;
+      ProgressBar pbTopService3 = ViewBindings.findChildViewById(rootView, id);
+      if (pbTopService3 == null) {
+        break missingId;
+      }
+
+      id = R.id.tvBusiestDay;
+      TextView tvBusiestDay = ViewBindings.findChildViewById(rootView, id);
+      if (tvBusiestDay == null) {
+        break missingId;
+      }
+
+      id = R.id.tvBusiestHour;
+      TextView tvBusiestHour = ViewBindings.findChildViewById(rootView, id);
+      if (tvBusiestHour == null) {
+        break missingId;
+      }
+
+      id = R.id.tvCancelled;
+      TextView tvCancelled = ViewBindings.findChildViewById(rootView, id);
+      if (tvCancelled == null) {
+        break missingId;
+      }
+
       id = R.id.tvDate;
       TextView tvDate = ViewBindings.findChildViewById(rootView, id);
       if (tvDate == null) {
         break missingId;
       }
 
-      return new ContentAdminBinding((LinearLayout) rootView, adminContent, btnCalendar, btnList,
-          calendarContainer, calendarView, listContainer, tvDate);
+      id = R.id.tvInsight1;
+      TextView tvInsight1 = ViewBindings.findChildViewById(rootView, id);
+      if (tvInsight1 == null) {
+        break missingId;
+      }
+
+      id = R.id.tvInsight2;
+      TextView tvInsight2 = ViewBindings.findChildViewById(rootView, id);
+      if (tvInsight2 == null) {
+        break missingId;
+      }
+
+      id = R.id.tvMonthAvgTicket;
+      TextView tvMonthAvgTicket = ViewBindings.findChildViewById(rootView, id);
+      if (tvMonthAvgTicket == null) {
+        break missingId;
+      }
+
+      id = R.id.tvMonthBookings;
+      TextView tvMonthBookings = ViewBindings.findChildViewById(rootView, id);
+      if (tvMonthBookings == null) {
+        break missingId;
+      }
+
+      id = R.id.tvMonthRevenue;
+      TextView tvMonthRevenue = ViewBindings.findChildViewById(rootView, id);
+      if (tvMonthRevenue == null) {
+        break missingId;
+      }
+
+      id = R.id.tvNewClients;
+      TextView tvNewClients = ViewBindings.findChildViewById(rootView, id);
+      if (tvNewClients == null) {
+        break missingId;
+      }
+
+      id = R.id.tvNoShowRate;
+      TextView tvNoShowRate = ViewBindings.findChildViewById(rootView, id);
+      if (tvNoShowRate == null) {
+        break missingId;
+      }
+
+      id = R.id.tvNoShows;
+      TextView tvNoShows = ViewBindings.findChildViewById(rootView, id);
+      if (tvNoShows == null) {
+        break missingId;
+      }
+
+      id = R.id.tvRetentionRate;
+      TextView tvRetentionRate = ViewBindings.findChildViewById(rootView, id);
+      if (tvRetentionRate == null) {
+        break missingId;
+      }
+
+      id = R.id.tvReturningClients;
+      TextView tvReturningClients = ViewBindings.findChildViewById(rootView, id);
+      if (tvReturningClients == null) {
+        break missingId;
+      }
+
+      id = R.id.tvTopService1;
+      TextView tvTopService1 = ViewBindings.findChildViewById(rootView, id);
+      if (tvTopService1 == null) {
+        break missingId;
+      }
+
+      id = R.id.tvTopService2;
+      TextView tvTopService2 = ViewBindings.findChildViewById(rootView, id);
+      if (tvTopService2 == null) {
+        break missingId;
+      }
+
+      id = R.id.tvTopService3;
+      TextView tvTopService3 = ViewBindings.findChildViewById(rootView, id);
+      if (tvTopService3 == null) {
+        break missingId;
+      }
+
+      id = R.id.tvYearBookings;
+      TextView tvYearBookings = ViewBindings.findChildViewById(rootView, id);
+      if (tvYearBookings == null) {
+        break missingId;
+      }
+
+      id = R.id.tvYearRevenue;
+      TextView tvYearRevenue = ViewBindings.findChildViewById(rootView, id);
+      if (tvYearRevenue == null) {
+        break missingId;
+      }
+
+      return new ContentAdminBinding((LinearLayout) rootView, adminContent, analyticsContainer,
+          btnAnalytics, btnCalendar, btnList, calendarContainer, calendarView, listContainer,
+          pbTopService1, pbTopService2, pbTopService3, tvBusiestDay, tvBusiestHour, tvCancelled,
+          tvDate, tvInsight1, tvInsight2, tvMonthAvgTicket, tvMonthBookings, tvMonthRevenue,
+          tvNewClients, tvNoShowRate, tvNoShows, tvRetentionRate, tvReturningClients, tvTopService1,
+          tvTopService2, tvTopService3, tvYearBookings, tvYearRevenue);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
